@@ -1,8 +1,17 @@
-@charset 'utf-8';
+@charset "utf-8";
 
 :root {
   --container-width: 1130px;
-  --font-family: system-ui, -apple-system, "BlinkMacSystemFont", "Segoe UI", "Helvetica", "Arial", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-family:
+    system-ui,
+    -apple-system,
+    "BlinkMacSystemFont",
+    "Segoe UI",
+    "Helvetica",
+    "Arial",
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji";
   --table-background-color: transparent;
 }
 
@@ -647,18 +656,18 @@ table td {
     padding: 7px 4px;
   }
 
-table [class^=colhead] td,
-  table [class^=row] td,
-  table [class*=torrent] td {
+table [class^="colhead"] td,
+  table [class^="row"] td,
+  table [class*="torrent"] td {
     border-bottom: 1px solid var(--table-border-color);
   }
 
 table .forum_group_header,
-  table [class^=colhead] {
+  table [class^="colhead"] {
     font-weight: 600;
   }
 
-table [class^=colhead] td {
+table [class^="colhead"] td {
     background-color: var(--table-header-background-color);
     -webkit-backdrop-filter: blur(1.5rem);
             backdrop-filter: blur(1.5rem);
@@ -711,7 +720,7 @@ table .min_padding {
 }
 
 #header::after, #content::after, #footer::after {
-    content: '';
+    content: "";
     clear: both;
     display: table;
   }
@@ -725,7 +734,7 @@ table .min_padding {
 
 #logo a {
     width: 307px;
-    background: url('logo.png') no-repeat;
+    background: url("logo.png") no-repeat;
     height: 60px;
     display: block;
     background-size: 307px 60px;
@@ -783,7 +792,7 @@ table .min_padding {
 }
 
 #userinfo::after, #menu::after, #searchbars::after {
-    content: '';
+    content: "";
     clear: both;
     display: table;
   }
@@ -939,13 +948,13 @@ table .min_padding {
     }
 
 #content .poll .graph::after {
-        content: '';
+        content: "";
         clear: both;
         display: table;
       }
 
 #content .stats li {
-    padding: 0 0 1px 0;
+    padding: 0 0 1px;
   }
 
 #content > .thin {
@@ -1102,14 +1111,14 @@ table .min_padding {
     vertical-align: top;
   }
 
-.torrent_table [class*=_redline] td {
+.torrent_table [class*="_redline"] td {
     background-color: rgb(255 0 0 / 20%);
     border-color: #e78d8d;
   }
 
 @media screen and (prefers-color-scheme: dark) {
 
-.torrent_table [class*=_redline] td {
+.torrent_table [class*="_redline"] td {
       background-color: rgb(255 50 50 / 15%);
       border-color: #6a2222
   }
@@ -1120,7 +1129,7 @@ table .min_padding {
     text-align: center;
   }
 
-.torrent_table [class*=torrent] span {
+.torrent_table [class*="torrent"] span {
     float: right;
   }
 
