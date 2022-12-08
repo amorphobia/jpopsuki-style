@@ -1127,7 +1127,7 @@ table .min_padding {
 #footer {
   background: var(--header-background-color);
   padding: 15px 3rem;
-  position: fixed;
+  position: relative;
   z-index: 1;
   left: 0;
   bottom: 0;
