@@ -1,0 +1,28 @@
+# Generic
+# --------------------------
+Thumbs.db
+Desktop.ini
+.directory
+*.cache
+*.log
+*.old
+*.zip
+._
+*~
+
+# IDE Project Configurations
+# --------------------------
+/.idea
+/.settings
+/*.sublime-*
+
+# Developments
+# --------------------------
+*.afdesign
+*.mp4
+node_modules
+public/*.css
+
+# But Keep these
+# --------------------------
+!.gitkeep
