@@ -3,10 +3,10 @@ name: GitHub Page
 on:
   pull_request:
     branches:
-      - main
+      - master
   push:
     branches:
-      - main
+      - master
 
 permissions:
   pages: write
