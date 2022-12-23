@@ -807,6 +807,10 @@ table .min_padding {
       border-left: 0;
     }
 
+#userinfo ul#userinfo_stats .stat {
+        padding-right: 0.5em;
+      }
+
 #userinfo li {
     font-size: 11px;
     padding: 0;
