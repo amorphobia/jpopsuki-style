@@ -3,7 +3,7 @@
 ### Screenshots
 ![Cover](public/screenshots/00-Cover.png)
 
-Click here to see all [screenshots](https://feryardiant.id/jpopsuki-style)
+Click here to see all [screenshots](https://jpopsuki-style.xuesong.io/)
 
 ### Features
 
@@ -15,7 +15,7 @@ Click here to see all [screenshots](https://feryardiant.id/jpopsuki-style)
 Copy link below and paste in your **Site Preferences > Stylesheet > External CSS**
 
 ```
-https://feryardiant.id/jpopsuki-style/style.min.css
+https://jpopsuki-style.xuesong.io/style.min.css
 ```
 
 ### Lisence

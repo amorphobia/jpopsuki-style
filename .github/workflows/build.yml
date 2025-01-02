@@ -26,7 +26,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Setup Node.JS
       uses: actions/setup-node@v3
@@ -45,13 +45,13 @@ jobs:
         cp .gitignore public/
 
     - name: Store pages
-      uses: actions/upload-pages-artifact@v2
+      uses: actions/upload-pages-artifact@v3
       with:
         path: public
 
     - name: Deploy
       if: github.event_name == 'push'
       id: deployment
-      uses: actions/deploy-pages@v2
+      uses: actions/deploy-pages@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
